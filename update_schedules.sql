@@ -1,4 +1,4 @@
-﻿USE cinema2;
+USE cinema2;
 
 -- 1. FIX IMAGES FOR BRANCHES AND ROOMS
 UPDATE branch SET imgurl = 'https://s3img.vcdn.vn/123phim/2021/01/bhd-star-bitexco-16105952137769.png';

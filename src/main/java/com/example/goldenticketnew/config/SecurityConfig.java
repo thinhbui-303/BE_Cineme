@@ -86,8 +86,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
             .permitAll()
 //            .antMatchers(HttpMethod.GET, "/api/article/**", "/api/movies/**", "/api/tickets/**", "/api/schedule/**", "/api/bills/**", "/api/rooms/**", "/api/seats/**", "/api/branches/**", "/api/movies/**", "/api/user/**")
 //            .permitAll()
-            .antMatchers("/api/article/**","/api/interaction/**", "/api/movies/**", "/api/tickets/**", "/api/schedule/**", "/api/bills/**", "/api/rooms/**", "/api/seats/**", "/api/branches/**", "/api/movies/**", "/api/user/**")
+            .antMatchers("/api/article/**","/api/interaction/**", "/api/tickets/**", "/api/schedule/**", "/api/bills/**", "/api/rooms/**", "/api/seats/**", "/api/branches/**", "/api/movies/**", "/api/user/**")
             .permitAll()
+            .antMatchers("/api/admin-cgv/**").hasAnyRole("ADMIN", "STAFF")
             .anyRequest()
             .authenticated();
 

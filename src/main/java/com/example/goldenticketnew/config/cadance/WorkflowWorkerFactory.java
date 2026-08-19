@@ -1,5 +1,4 @@
-﻿package com.example.goldenticketnew.config.cadance;
-
+package com.example.goldenticketnew.config.cadance;
 
 import com.example.goldenticketnew.workflow.BookingTicketWorkflow;
 import com.example.goldenticketnew.workflow.activities.interfaces.IBookingTicketActivity;
@@ -62,5 +61,3 @@ public class WorkflowWorkerFactory implements InitializingBean {
         worker.registerActivitiesImplementations(bookingTicketActivity);
     }
 }
-
-

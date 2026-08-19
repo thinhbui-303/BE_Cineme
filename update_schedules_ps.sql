@@ -1,4 +1,4 @@
-﻿USE cinema2;
+USE cinema2;
 UPDATE branch SET imgurl = 'https://s3img.vcdn.vn/123phim/2021/01/bhd-star-bitexco-16105952137769.png';
 UPDATE room SET imgurl = 'https://s3img.vcdn.vn/123phim/2021/01/bhd-star-bitexco-16105952137769.png';
 DELETE FROM schedule;

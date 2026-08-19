@@ -1,4 +1,4 @@
-﻿USE cinema2;
+USE cinema2;
 
 SET FOREIGN_KEY_CHECKS = 0;
 
@@ -36,101 +36,101 @@ INSERT INTO user_role (user_id, role_id) VALUES (1, 2), (1, 1);
 -- 3. MOVIES (from the commented-out code)
 -- =============================================
 INSERT INTO movie (id, name, small_imageurl, large_imageurl, short_description, long_description, director, actors, categories, release_date, duration, trailerurl, language, rated, is_showing, created_at, updated_at) VALUES 
-(1, 'Nhóc Trùm: Nối Nghiệp Gia Đình',
+(1, 'Nh�c Tr�m: N?i Nghi?p Gia ��nh',
  'https://www.cgv.vn/media/catalog/product/cache/1/small_image/240x388/dd828b13b1cb77667d034d5f59a82eb6/p/o/poster_boss_baby_2_24.12.2021_1_1_1__1.jpg',
  'https://www.cgv.vn/media/banner/cache/1/b58515f018eb873dafa430b6f9ae0c1e/r/s/rsz_dr-strange-980x448.jpg',
- 'Nhóc trùm Ted giờ đây đã trở thành một triệu phú nổi tiếng trong khi Tim lại có một cuộc sống đơn giản bên vợ anh Carol và hai cô con gái nhỏ yêu dấu.',
- 'Nhóc trùm Ted giờ đây đã trở thành một triệu phú nổi tiếng trong khi Tim lại có một cuộc sống đơn giản bên vợ anh Carol và hai cô con gái nhỏ yêu dấu. Mỗi mùa Giáng sinh tới, cả Tina và Tabitha đều mong được gặp chú Ted nhưng dường như hai anh em nhà Templeton nay đã không còn gần gũi như xưa. Nhưng bất ngờ thay khi Ted lại có màn tái xuất không thể hoành tráng hơn khi đáp thẳng máy bay trực thăng tới nhà Tim trước sự ngỡ ngàng của cả gia đình.',
+ 'Nh�c tr�m Ted gi? d�y d� tr? th�nh m?t tri?u ph� n?i ti?ng trong khi Tim l?i c� m?t cu?c s?ng don gi?n b�n v? anh Carol v� hai c� con g�i nh? y�u d?u.',
+ 'Nh�c tr�m Ted gi? d�y d� tr? th�nh m?t tri?u ph� n?i ti?ng trong khi Tim l?i c� m?t cu?c s?ng don gi?n b�n v? anh Carol v� hai c� con g�i nh? y�u d?u. M?i m�a Gi�ng sinh t?i, c? Tina v� Tabitha d?u mong du?c g?p ch� Ted nhung du?ng nhu hai anh em nh� Templeton nay d� kh�ng c�n g?n gui nhu xua. Nhung b?t ng? thay khi Ted l?i c� m�n t�i xu?t kh�ng th? ho�nh tr�ng hon khi d�p th?ng m�y bay tr?c thang t?i nh� Tim tru?c s? ng? ng�ng c?a c? gia d�nh.',
  'Tom McGrath', 'Amy Sedaris, Jeff Goldblum, James Marsden',
- 'Hoạt Hình', '2021-12-24', 105, 'https://www.youtube.com/embed/Lv8nL2q8yRI',
- 'Tiếng Anh với phụ đề tiếng Việt và lồng tiếng Việt', 'P - PHIM DÀNH CHO MỌI ĐỐI TƯỢNG', 1, NOW(), NOW()),
+ 'Ho?t H�nh', '2021-12-24', 105, 'https://www.youtube.com/embed/Lv8nL2q8yRI',
+ 'Ti?ng Anh v?i ph? d? ti?ng Vi?t v� l?ng ti?ng Vi?t', 'P - PHIM D�NH CHO M?I �?I TU?NG', 1, NOW(), NOW()),
 
-(2, 'Venom: Đối Mặt Tử Thù',
+(2, 'Venom: �?i M?t T? Th�',
  'https://www.cgv.vn/media/catalog/product/cache/1/small_image/240x388/dd828b13b1cb77667d034d5f59a82eb6/p/o/poster_venom_121121_1__1.jpg',
  'https://www.cgv.vn/media/banner/cache/1/b58515f018eb873dafa430b6f9ae0c1e/b/l/blackpink-rolling_1_.jpg',
- 'Siêu bom tấn VENOM: LET THERE BE CARNAGE hứa hẹn trận chiến khốc liệt nhất giữa Venom và kẻ thù truyền kiếp, Carnage.',
- 'Siêu bom tấn VENOM: LET THERE BE CARNAGE hứa hẹn trận chiến khốc liệt nhất giữa Venom và kẻ thù truyền kiếp, Carnage.',
+ 'Si�u bom t?n VENOM: LET THERE BE CARNAGE h?a h?n tr?n chi?n kh?c li?t nh?t gi?a Venom v� k? th� truy?n ki?p, Carnage.',
+ 'Si�u bom t?n VENOM: LET THERE BE CARNAGE h?a h?n tr?n chi?n kh?c li?t nh?t gi?a Venom v� k? th� truy?n ki?p, Carnage.',
  'Andy Serkis', 'Tom Hardy, Michelle Williams, Woody Harrelson, Naomie Harris',
- 'Hành Động, Khoa Học Viễn Tưởng, Phiêu Lưu, Thần thoại', '2021-12-10', 97, 'https://www.youtube.com/embed/EVWdzVtSh1I',
- 'Tiếng Anh - Phụ đề Tiếng Việt', 'C13 - PHIM CẤM KHÁN GIẢ DƯỚI 13 TUỔI', 1, NOW(), NOW()),
+ 'H�nh �?ng, Khoa H?c Vi?n Tu?ng, Phi�u Luu, Th?n tho?i', '2021-12-10', 97, 'https://www.youtube.com/embed/EVWdzVtSh1I',
+ 'Ti?ng Anh - Ph? d? Ti?ng Vi?t', 'C13 - PHIM C?M KH�N GI? DU?I 13 TU?I', 1, NOW(), NOW()),
 
-(3, 'Ma Trận: Hồi Sinh',
+(3, 'Ma Tr?n: H?i Sinh',
  'https://www.cgv.vn/media/catalog/product/cache/1/small_image/240x388/dd828b13b1cb77667d034d5f59a82eb6/p/o/poster_matrix_4_1__1.jpg',
  'https://www.cgv.vn/media/banner/cache/1/b58515f018eb873dafa430b6f9ae0c1e/b/l/blackpink-rolling_1_.jpg',
- 'Sau 20 năm, siêu phẩm ma trận đã trở lại với người xem, Neo is back!',
- 'Ma Trận: Hồi Sinh là phần phim tiếp theo rất được trông đợi của loạt phim Ma Trận đình đám, đã góp phần tái định nghĩa thể loại phim khoa học viễn tưởng.',
+ 'Sau 20 nam, si�u ph?m ma tr?n d� tr? l?i v?i ngu?i xem, Neo is back!',
+ 'Ma Tr?n: H?i Sinh l� ph?n phim ti?p theo r?t du?c tr�ng d?i c?a lo?t phim Ma Tr?n d�nh d�m, d� g�p ph?n t�i d?nh nghia th? lo?i phim khoa h?c vi?n tu?ng.',
  'Lana Wachowski', 'Keanu Reeves, Carrie-Anne Moss, Yahya Abdul-Mateen II, Jessica Henwick',
- 'Hành Động, Khoa Học Viễn Tưởng', '2021-12-24', 148, 'https://www.youtube.com/embed/l2UTOJC5Tbk',
- 'Tiếng Anh - Phụ đề Tiếng Việt, Phụ đề Tiếng Hàn', 'C18 - PHIM CẤM KHÁN GIẢ DƯỚI 18 TUỔI', 1, NOW(), NOW()),
+ 'H�nh �?ng, Khoa H?c Vi?n Tu?ng', '2021-12-24', 148, 'https://www.youtube.com/embed/l2UTOJC5Tbk',
+ 'Ti?ng Anh - Ph? d? Ti?ng Vi?t, Ph? d? Ti?ng H�n', 'C18 - PHIM C?M KH�N GI? DU?I 18 TU?I', 1, NOW(), NOW()),
 
-(4, 'Doraemon: Ôi Bạn Ơi 2',
+(4, 'Doraemon: �i B?n Oi 2',
  'https://www.cgv.vn/media/catalog/product/cache/1/small_image/240x388/dd828b13b1cb77667d034d5f59a82eb6/p/o/poster_doremon_2_1__1.jpg',
  'https://www.cgv.vn/media/banner/cache/1/b58515f018eb873dafa430b6f9ae0c1e/d/o/doreamon.jpg',
- 'Một ngày nọ, Nobita vô tình tìm thấy chú gấu bông cũ, món đồ chơi chất chứa bao kỉ niệm cùng người bà đáng kính.',
- 'Một ngày nọ, Nobita vô tình tìm thấy chú gấu bông cũ, món đồ chơi chất chứa bao kỉ niệm cùng người bà đáng kính. Với khát khao muốn gặp bà lần nữa, Nobita đã trở về quá khứ bằng cổ máy thời gian.',
+ 'M?t ng�y n?, Nobita v� t�nh t�m th?y ch� g?u b�ng cu, m�n d? choi ch?t ch?a bao k? ni?m c�ng ngu?i b� d�ng k�nh.',
+ 'M?t ng�y n?, Nobita v� t�nh t�m th?y ch� g?u b�ng cu, m�n d? choi ch?t ch?a bao k? ni?m c�ng ngu?i b� d�ng k�nh. V?i kh�t khao mu?n g?p b� l?n n?a, Nobita d� tr? v? qu� kh? b?ng c? m�y th?i gian.',
  'Ryuichi Yagi, Takashi Yamazaki', 'Wasabi Mizuta, Megumi Oohara, Yumi Kakazu, Subaru Kimura',
- 'Hài, Hoạt Hình', '2021-12-17', 96, 'https://www.youtube.com/embed/GXnOs4Hj8MA',
- 'Tiếng Nhật - Phụ đề Tiếng Việt; Lồng tiếng', 'P - PHIM DÀNH CHO MỌI ĐỐI TƯỢNG', 1, NOW(), NOW()),
+ 'H�i, Ho?t H�nh', '2021-12-17', 96, 'https://www.youtube.com/embed/GXnOs4Hj8MA',
+ 'Ti?ng Nh?t - Ph? d? Ti?ng Vi?t; L?ng ti?ng', 'P - PHIM D�NH CHO M?I �?I TU?NG', 1, NOW(), NOW()),
 
-(5, 'Câu Chuyện Phía Tây',
+(5, 'C�u Chuy?n Ph�a T�y',
  'https://www.cgv.vn/media/catalog/product/cache/1/small_image/240x388/dd828b13b1cb77667d034d5f59a82eb6/p/o/poster_wss_1200x1800__1.jpg',
  'https://www.cgv.vn/media/banner/cache/1/b58515f018eb873dafa430b6f9ae0c1e/w/s/wss_sneak_980x448.jpg',
- 'Câu chuyện phía Tây kể lại câu chuyện tình yêu kinh điển của Tony và Maria.',
- 'Được đạo diễn bởi đạo diễn gạo cội từng giành giải Oscar Steven Spielberg, cùng kịch bản bởi biên kịch từng giành giải Pulitzer Prize và giải Tony Award.',
+ 'C�u chuy?n ph�a T�y k? l?i c�u chuy?n t�nh y�u kinh di?n c?a Tony v� Maria.',
+ '�u?c d?o di?n b?i d?o di?n g?o c?i t?ng gi�nh gi?i Oscar Steven Spielberg, c�ng k?ch b?n b?i bi�n k?ch t?ng gi�nh gi?i Pulitzer Prize v� gi?i Tony Award.',
  'Steven Spielberg', 'Ansel Elgort, Rachel Zegler, Ariana DeBose, David Alvarez, Mike Faist',
- 'Nhạc kịch, Tình cảm', '2021-12-24', 156, 'https://www.youtube.com/embed/QPvqV71P0Fo',
- 'Tiếng Anh - Phụ đề Tiếng Việt', 'C16 - PHIM CẤM KHÁN GIẢ DƯỚI 16 TUỔI', 1, NOW(), NOW()),
+ 'Nh?c k?ch, T�nh c?m', '2021-12-24', 156, 'https://www.youtube.com/embed/QPvqV71P0Fo',
+ 'Ti?ng Anh - Ph? d? Ti?ng Vi?t', 'C16 - PHIM C?M KH�N GI? DU?I 16 TU?I', 1, NOW(), NOW()),
 
 (6, 'BlackPink The Movie',
  'https://www.cgv.vn/media/catalog/product/cache/1/small_image/240x388/dd828b13b1cb77667d034d5f59a82eb6/p/o/poster_blackpink_vie_2_1__1.jpg',
  'https://www.cgv.vn/media/banner/cache/1/b58515f018eb873dafa430b6f9ae0c1e/b/l/blackpink-rolling_1_.jpg',
- 'Nhóm nhạc nữ được yêu thích toàn cầu, BLACKPINK sẽ kỷ niệm năm thứ 5 hoạt động của nhóm.',
- 'Nhóm nhạc nữ được yêu thích toàn cầu, BLACKPINK sẽ kỷ niệm năm thứ 5 hoạt động của nhóm với việc phát hành BLACKPINK THE MOVIE, đây cũng như là món quà đặc biệt dành tặng cho các BLINK.',
- 'Su Yee Jung, Oh Yoon-Dong', 'JISOO, JENNIE, ROSÉ, LISA',
- 'Phim tài liệu', '2021-12-24', 99, 'https://www.youtube.com/embed/Q_rK9UlUN-Q',
- 'Tiếng Hàn - Phụ đề tiếng Việt', 'P - PHIM DÀNH CHO MỌI ĐỐI TƯỢNG', 1, NOW(), NOW()),
+ 'Nh�m nh?c n? du?c y�u th�ch to�n c?u, BLACKPINK s? k? ni?m nam th? 5 ho?t d?ng c?a nh�m.',
+ 'Nh�m nh?c n? du?c y�u th�ch to�n c?u, BLACKPINK s? k? ni?m nam th? 5 ho?t d?ng c?a nh�m v?i vi?c ph�t h�nh BLACKPINK THE MOVIE, d�y cung nhu l� m�n qu� d?c bi?t d�nh t?ng cho c�c BLINK.',
+ 'Su Yee Jung, Oh Yoon-Dong', 'JISOO, JENNIE, ROS�, LISA',
+ 'Phim t�i li?u', '2021-12-24', 99, 'https://www.youtube.com/embed/Q_rK9UlUN-Q',
+ 'Ti?ng H�n - Ph? d? ti?ng Vi?t', 'P - PHIM D�NH CHO M?I �?I TU?NG', 1, NOW(), NOW()),
 
-(7, 'Người Nhện: Không Còn Nhà',
+(7, 'Ngu?i Nh?n: Kh�ng C�n Nh�',
  'https://www.cgv.vn/media/catalog/product/cache/1/small_image/240x388/dd828b13b1cb77667d034d5f59a82eb6/s/n/snwh_poster_bluemontage_4x5fb_1__1.jpg',
  'https://www.cgv.vn/media/banner/cache/1/b58515f018eb873dafa430b6f9ae0c1e/r/s/rsz_dr-strange-980x448.jpg',
- 'Đa vũ trụ được mở ra, những kẻ phản diện nào sẽ trạm chán spidey, cùng đón xem nhá',
- 'Lần đầu tiên trong lịch sử điện ảnh của Người Nhện, thân phận người hàng xóm thân thiện bị lật mở, khiến trách nhiệm làm một Siêu Anh Hùng xung đột với cuộc sống bình thường.',
+ '�a vu tr? du?c m? ra, nh?ng k? ph?n di?n n�o s? tr?m ch�n spidey, c�ng d�n xem nh�',
+ 'L?n d?u ti�n trong l?ch s? di?n ?nh c?a Ngu?i Nh?n, th�n ph?n ngu?i h�ng x�m th�n thi?n b? l?t m?, khi?n tr�ch nhi?m l�m m?t Si�u Anh H�ng xung d?t v?i cu?c s?ng b�nh thu?ng.',
  'Jon Watts', 'Tom Holland, Zendaya, Benedict Cumberbatch, Jacob Batalon, Jon Favreau',
- 'Hành Động, Phiêu Lưu', '2021-12-17', 149, 'https://www.youtube.com/embed/daHCu_jU5mQ',
- 'Tiếng Anh - Phụ đề Tiếng Việt', 'C13 - PHIM CẤM KHÁN GIẢ DƯỚI 13 TUỔI', 1, NOW(), NOW());
+ 'H�nh �?ng, Phi�u Luu', '2021-12-17', 149, 'https://www.youtube.com/embed/daHCu_jU5mQ',
+ 'Ti?ng Anh - Ph? d? Ti?ng Vi?t', 'C13 - PHIM C?M KH�N GI? DU?I 13 TU?I', 1, NOW(), NOW());
 
 -- =============================================
 -- 4. BRANCHES (from the commented-out code)
 -- =============================================
 INSERT INTO branch (id, name, address, phone_no, imgurl, created_at, updated_at) VALUES 
-(1, 'WORLD CINEMA Hà Đông', 'Tầng 4, Mê Linh Plaza Hà Đông, Đ. Tô Hiệu, P, Hà Đông, Hà Nội', '0938473829', 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', NOW(), NOW()),
-(2, 'WORLD CINEMA Thủ Đức', '216 Đ. Võ Văn Ngân, Bình Thọ, Thủ Đức, Thành phố Hồ Chí Minh', '1900 6017', 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', NOW(), NOW()),
-(3, 'WORLD CINEMA Ba Đình', '29 P. Liễu Giai, Ngọc Khánh, Ba Đình, Hà Nội 100000', '1900 6017', 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', NOW(), NOW()),
-(4, 'WORLD CINEMA Phạm Hùng', 'Phạm Hùng, Mỹ Đình, Nam Từ Liêm, Hà Nội', '1900 6017', 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', NOW(), NOW());
+(1, 'WORLD CINEMA H� ��ng', 'T?ng 4, M� Linh Plaza H� ��ng, �. T� Hi?u, P, H� ��ng, H� N?i', '0938473829', 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', NOW(), NOW()),
+(2, 'WORLD CINEMA Th? �?c', '216 �. V� Van Ng�n, B�nh Th?, Th? �?c, Th�nh ph? H? Ch� Minh', '1900 6017', 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', NOW(), NOW()),
+(3, 'WORLD CINEMA Ba ��nh', '29 P. Li?u Giai, Ng?c Kh�nh, Ba ��nh, H� N?i 100000', '1900 6017', 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', NOW(), NOW()),
+(4, 'WORLD CINEMA Ph?m H�ng', 'Ph?m H�ng, M? ��nh, Nam T? Li�m, H� N?i', '1900 6017', 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', NOW(), NOW());
 
 -- =============================================
 -- 5. ROOMS (4 rooms per branch = 16 rooms total)
 -- =============================================
 -- Branch 1: Ha Dong
 INSERT INTO room (id, name, capacity, total_area, imgurl, branch_id) VALUES 
-(1, 'Phòng 101', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 1),
-(2, 'Phòng 202', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 1),
-(3, 'Phòng 303', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 1),
-(4, 'Phòng 404', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 1),
+(1, 'Ph�ng 101', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 1),
+(2, 'Ph�ng 202', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 1),
+(3, 'Ph�ng 303', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 1),
+(4, 'Ph�ng 404', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 1),
 -- Branch 2: Thu Duc
-(5, 'Phòng 101', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 2),
-(6, 'Phòng 202', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 2),
-(7, 'Phòng 303', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 2),
+(5, 'Ph�ng 101', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 2),
+(6, 'Ph�ng 202', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 2),
+(7, 'Ph�ng 303', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 2),
 -- Branch 3: Ba Dinh
-(8, 'Phòng 101', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 3),
-(9, 'Phòng 202', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 3),
-(10, 'Phòng 303', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 3),
-(11, 'Phòng 404', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 3),
+(8, 'Ph�ng 101', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 3),
+(9, 'Ph�ng 202', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 3),
+(10, 'Ph�ng 303', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 3),
+(11, 'Ph�ng 404', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 3),
 -- Branch 4: Pham Hung
-(12, 'Phòng 101', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 4),
-(13, 'Phòng 202', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 4),
-(14, 'Phòng 303', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 4),
-(15, 'Phòng 404', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 4);
+(12, 'Ph�ng 101', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 4),
+(13, 'Ph�ng 202', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 4),
+(14, 'Ph�ng 303', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 4),
+(15, 'Ph�ng 404', 40, 80, 'http://hdradio.vn/upload/hinhanh/Cinema-tong-hop/cinema-thiet-ke/Cinema-kd100/cinema-hdradio.jpg', 4);
 
 -- =============================================
 -- 6. SEATS (5 rows x 8 seats = 40 seats per room, for all rooms)
@@ -250,17 +250,17 @@ INSERT INTO seat (name, seat_type, room_id) VALUES
 -- Branch 3 rooms: 8,9,10,11  |  Branch 4 rooms: 12,13,14,15
 -- =============================================
 
--- ===== BRANCH 1 (Hà Đông) =====
+-- ===== BRANCH 1 (H� ��ng) =====
 INSERT INTO schedule (price, start_date, start_time, branch_id, movie_id, room_id, created_at, updated_at) VALUES 
--- Movie 1 - Bẫy Ngọt Ngào
+-- Movie 1 - B?y Ng?t Ng�o
 (70000, CURDATE(), '09:00:00', 1, 1, 1, NOW(), NOW()),
 (70000, CURDATE(), '14:30:00', 1, 1, 1, NOW(), NOW()),
 (70000, CURDATE(), '20:00:00', 1, 1, 2, NOW(), NOW()),
--- Movie 2 - Nhà Bà Nữ
+-- Movie 2 - Nh� B� N?
 (70000, CURDATE(), '10:00:00', 1, 2, 2, NOW(), NOW()),
 (70000, CURDATE(), '15:00:00', 1, 2, 2, NOW(), NOW()),
 (70000, CURDATE(), '21:00:00', 1, 2, 3, NOW(), NOW()),
--- Movie 3 - Ma Trận: Hồi Sinh
+-- Movie 3 - Ma Tr?n: H?i Sinh
 (70000, CURDATE(), '09:30:00', 1, 3, 3, NOW(), NOW()),
 (70000, CURDATE(), '14:00:00', 1, 3, 3, NOW(), NOW()),
 (70000, CURDATE(), '19:30:00', 1, 3, 4, NOW(), NOW()),
@@ -268,7 +268,7 @@ INSERT INTO schedule (price, start_date, start_time, branch_id, movie_id, room_i
 (65000, CURDATE(), '10:15:00', 1, 4, 4, NOW(), NOW()),
 (65000, CURDATE(), '13:00:00', 1, 4, 1, NOW(), NOW()),
 (65000, CURDATE(), '16:30:00', 1, 4, 2, NOW(), NOW()),
--- Movie 5 - Câu Chuyện Phía Tây
+-- Movie 5 - C�u Chuy?n Ph�a T�y
 (70000, CURDATE(), '11:00:00', 1, 5, 1, NOW(), NOW()),
 (70000, CURDATE(), '16:00:00', 1, 5, 3, NOW(), NOW()),
 (70000, CURDATE(), '21:30:00', 1, 5, 4, NOW(), NOW()),
@@ -276,14 +276,14 @@ INSERT INTO schedule (price, start_date, start_time, branch_id, movie_id, room_i
 (75000, CURDATE(), '10:30:00', 1, 6, 2, NOW(), NOW()),
 (75000, CURDATE(), '15:30:00', 1, 6, 4, NOW(), NOW()),
 (75000, CURDATE(), '19:00:00', 1, 6, 1, NOW(), NOW()),
--- Movie 7 - Người Nhện: Không Còn Nhà
+-- Movie 7 - Ngu?i Nh?n: Kh�ng C�n Nh�
 (80000, CURDATE(), '10:15:00', 1, 7, 1, NOW(), NOW()),
 (80000, CURDATE(), '13:05:00', 1, 7, 2, NOW(), NOW()),
 (80000, CURDATE(), '16:20:00', 1, 7, 3, NOW(), NOW()),
 (80000, CURDATE(), '19:15:00', 1, 7, 4, NOW(), NOW()),
 (80000, CURDATE(), '22:00:00', 1, 7, 1, NOW(), NOW()),
 
--- ===== BRANCH 2 (Thủ Đức) =====
+-- ===== BRANCH 2 (Th? �?c) =====
 -- Movie 1
 (70000, CURDATE(), '09:00:00', 2, 1, 5, NOW(), NOW()),
 (70000, CURDATE(), '14:00:00', 2, 1, 5, NOW(), NOW()),
@@ -314,7 +314,7 @@ INSERT INTO schedule (price, start_date, start_time, branch_id, movie_id, room_i
 (80000, CURDATE(), '16:45:00', 2, 7, 7, NOW(), NOW()),
 (80000, CURDATE(), '20:00:00', 2, 7, 5, NOW(), NOW()),
 
--- ===== BRANCH 3 (Ba Đình) =====
+-- ===== BRANCH 3 (Ba ��nh) =====
 -- Movie 1
 (70000, CURDATE(), '09:00:00', 3, 1, 8, NOW(), NOW()),
 (70000, CURDATE(), '14:00:00', 3, 1, 9, NOW(), NOW()),
@@ -345,7 +345,7 @@ INSERT INTO schedule (price, start_date, start_time, branch_id, movie_id, room_i
 (80000, CURDATE(), '17:00:00', 3, 7, 10, NOW(), NOW()),
 (80000, CURDATE(), '20:15:00', 3, 7, 11, NOW(), NOW()),
 
--- ===== BRANCH 4 (Phạm Hùng) =====
+-- ===== BRANCH 4 (Ph?m H�ng) =====
 -- Movie 1
 (70000, CURDATE(), '09:00:00', 4, 1, 12, NOW(), NOW()),
 (70000, CURDATE(), '14:30:00', 4, 1, 13, NOW(), NOW()),
